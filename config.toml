@@ -1,0 +1,87 @@
+# JoinMarket Directory Node Monitor Configuration
+# This monitors the health of JoinMarket directory nodes
+
+[server]
+host = "127.0.0.1"
+port = 3000
+
+[proxy]
+# Default Tor SOCKS5 proxy settings
+host = "127.0.0.1"
+port = 9050
+
+[monitoring]
+# Check every 60 seconds (directory nodes should be stable)
+check_interval_seconds = 60
+# 15 second timeout for connections
+connection_timeout_seconds = 15
+
+[[endpoints]]
+address = "g3hv4uynnmynqqq2mchf3fcm3yd46kfzmcdogejuckgwknwyq5ya6iad.onion"
+name = "JoinMarket Directory Node 1"
+port = 5222
+
+[[endpoints]]
+address = "3kxw6lf5vf6y26emzwgibzhrzhmhqiw6ekrek3nqfjjmhwznb2moonad.onion"
+name = "JoinMarket Directory Node 2"
+port = 5222
+
+[[endpoints]]
+address = "bqlpq6ak24mwvuixixitift4yu42nxchlilrcqwk2ugn45tdclg42qid.onion"
+name = "JoinMarket Directory Node 3"
+port = 5222
+
+[[endpoints]]
+address = "ylegp63psfqh3zk2huckf2xth6dxvh2z364ykjfmvsoze6tkfjceq7qd.onion"
+name = "JoinMarket Directory Node 4"
+port = 5222
+
+[[endpoints]]
+address = "plq5jw5hqke6werrc5duvgwbuczrg4mphlqsqbzmdfwxwkm2ncdzxeqd.onion"
+name = "JoinMarket Directory Node 5"
+port = 5222
+
+[[endpoints]]
+address = "odpwaf67rs5226uabcamvypg3y4bngzmfk7255flcdodesqhsvkptaid.onion"
+name = "JoinMarket Directory Node 6"
+port = 5222
+
+[[endpoints]]
+address = "g3hv4uynnmynqqq2mchf3fcm3yd46kfzmcdogejuckgwknwyq5ya6iad.onion"
+name = "JoinMarket Directory Node 7"
+port = 5222
+
+[[endpoints]]
+address = "3kxw6lf5vf6y26emzwgibzhrzhmhqiw6ekrek3nqfjjmhwznb2moonad.onion"
+name = "JoinMarket Directory Node 8"
+port = 5222
+
+[[endpoints]]
+address = "bqlpq6ak24mwvuixixitift4yu42nxchlilrcqwk2ugn45tdclg42qid.onion"
+name = "JoinMarket Directory Node 9"
+port = 5222
+
+[[endpoints]]
+address = "wkd3kd73ze62sqhlj2ebwe6fxqvshw5sya6nkvrgcweegt7ljhuspaid.onion"
+name = "JoinMarket Directory Node 10"
+port = 5222
+
+[[endpoints]]
+address = "ylegp63psfqh3zk2huckf2xth6dxvh2z364ykjfmvsoze6tkfjceq7qd.onion"
+name = "JoinMarket Directory Node 11"
+port = 5222
+
+[[endpoints]]
+address = "satoshi2vcg5e2ept7tjkzlkpomkobqmgtsjzegg6wipnoajadissead.onion"
+name = "JoinMarket Directory Node 12"
+port = 5222
+
+[[endpoints]]
+address = "shssats5ucnwdpbticbb4dymjzf2o27tdecpes35ededagjpdmpxm6yd.onion"
+name = "JoinMarket Directory Node 13"
+port = 5222
+
+[[endpoints]]
+address = "jmarketxf5wc4aldf3slm5u6726zsky52bqnfv6qyxe5hnafgly6yuyd.onion"
+name = "JoinMarket Directory Node 14"
+port = 5222

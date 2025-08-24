@@ -1,0 +1,10 @@
+# Group and sort imports
+group_imports = "StdExternalCrate"
+imports_granularity = "Module"
+reorder_imports = true
+
+# Other formatting preferences
+edition = "2021"
+max_width = 100
+tab_spaces = 4
+use_small_heuristics = "Default"

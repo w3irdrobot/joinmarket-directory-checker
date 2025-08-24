@@ -1,0 +1,22 @@
+[package]
+default-run = "joinmarket-directory-checker"
+edition = "2024"
+license = "AGPL-3.0-or-later"
+name = "joinmarket-directory-checker"
+version = "0.1.0"
+
+[dependencies]
+axum = "0.7"
+chrono = { version = "0.4", features = ["serde"] }
+maud = { version = "0.25", features = ["axum"] }
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+tokio = { version = "1.47.1", features = [
+  "macros",
+  "net",
+  "io-util",
+  "rt-multi-thread",
+] }
+toml = "0.8"
+tower = "0.4"
+tower-http = { version = "0.5", features = ["fs"] }
