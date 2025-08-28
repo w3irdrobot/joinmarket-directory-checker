@@ -10,9 +10,3 @@ lint:
 
 start:
     cargo run
-
-migrate cmd='run':
-    cargo sqlx migrate {{cmd}}
-
-prepare:
-    cargo sqlx prepare
