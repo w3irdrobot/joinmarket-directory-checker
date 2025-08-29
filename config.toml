@@ -85,3 +85,8 @@ port = 5222
 address = "jmarketxf5wc4aldf3slm5u6726zsky52bqnfv6qyxe5hnafgly6yuyd.onion"
 name = "JoinMarket Directory Node 14"
 port = 5222
+
+[[endpoints]]
+address = "coinjointovy3eq5fjygdwpkbcdx63d7vd4g32mw7y553uj3kjjzkiqd.onion"
+name = "JoinMarket Directory Node 15"
+port = 5222
